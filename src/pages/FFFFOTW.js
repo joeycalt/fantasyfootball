@@ -2,7 +2,11 @@ import React from 'react'
 
 const FFFFOTW = () => {
   return (
-    <div>FFFFOTW</div>
+    <div>
+        <a href='ffffotw/new'>
+        <button>Add new post</button>
+        </a>
+    </div>
   )
 }
 
