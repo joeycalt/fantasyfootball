@@ -1,10 +1,89 @@
 .App {
   text-align: center;
+  background-color: blue;
+}
+
+.navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.nav {
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.img {
+  text-align: left;
+  margin-right: 750px;
+}
+
+.home-pics {
+  border: none;
+  border-radius: 10%;
+}
+
+ .owners {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.team-names {
+  color: white;
+}
+
+.jabs {
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.div-name{
+  text-align: center;
+}
+
+#table {
+  width: 100%;
+  font-size: 20px;
+}
+
+#tableTwo {
+  width: 100%;
+  font-size: 20px;
+}
+
+.content-table {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+th {
+  color: black;
+}
+
+td {
+  color: white;
+}
+
+.div-name {
+  color: white;
+}
+
+.name-link {
+  color: white;
+  text-decoration: none;
+}
+
+.standings-table {
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 140px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -51,7 +51,7 @@ const Home = () => {
         <div class="div">
      <h3 class="team-names">Burke and Dylan</h3>
      <img class="home-pics" src="https://i.im.ge/2022/09/06/ORZslr.dyke.jpg" height="400px" width="400px" alt='' />
-     <p>(sorry jabs)</p>
+     <p className='jabs'>(sorry jabs)</p>
         </div>
 
         <div class="div">

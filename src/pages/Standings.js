@@ -4,13 +4,13 @@ const Standings = () => {
   return (
     <div>
         <h1>Standings</h1>
-    <div>
+    <div className='standings-table'>
     <h1 class="div-name">BIG</h1>
     <div class="content-table">
     <table id="table" class="table table-dark table-striped">
         <thead>
             <tr>
-              <th scope="col">#</th>
+              <th scope="col"></th>
               <th scope="col">Team Name</th>
               <th scope='col'>Record</th>
               <th scope="col">FAAB</th>
@@ -20,7 +20,7 @@ const Standings = () => {
             <tr>
               <th scope="row">1</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Nick V
             </a>
             </td>
@@ -31,7 +31,7 @@ const Standings = () => {
             <tr>
               <th scope="row">2</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Kelsch
             </a> 
             </td>
@@ -41,7 +41,7 @@ const Standings = () => {
             <tr>
               <th scope="row">3</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Nick R
             </a>
             </td>
@@ -52,7 +52,7 @@ const Standings = () => {
             <tr>
               <th scope="row">4</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Mike
             </a>
             </td>  
@@ -62,7 +62,7 @@ const Standings = () => {
             <tr>
               <th scope="row">5</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Jabs
             </a>
             </td>
@@ -77,7 +77,7 @@ const Standings = () => {
     <table id= "tableTwo" class="table table-dark table-striped">
         <thead>
             <tr>
-              <th scope="col">#</th>
+              <th scope="col"></th>
               <th scope="col">Team Name</th>
               <th scope='col'>Record</th>
               <th scope="col">FAAB</th>
@@ -87,7 +87,7 @@ const Standings = () => {
           <tr>
             <th scope="row">1</th>
             <td>
-              <a href="https://sleeper.com/leagues/863903283750825984/league">
+              <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
               Joe
           </a>
           </td>
@@ -97,7 +97,7 @@ const Standings = () => {
             <tr>
               <th scope="row">2</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Burke and Dylan
            </a>
             </td>
@@ -107,7 +107,7 @@ const Standings = () => {
             <tr>
               <th scope="row">3</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Frank
             </a>
               </td>
@@ -117,7 +117,7 @@ const Standings = () => {
             <tr>
               <th scope="row">4</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                 Bill and Joey
            </a>
             </td>
@@ -127,7 +127,7 @@ const Standings = () => {
             <tr>
               <th scope="row">5</th>
               <td>
-                <a href="https://sleeper.com/leagues/863903283750825984/league">
+                <a className='name-link' href="https://sleeper.com/leagues/863903283750825984/league">
                     Sook and Matt
                 </a>
                 </td>

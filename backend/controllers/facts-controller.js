@@ -11,13 +11,16 @@ router.get('/',async (req, res) => {
     }
 });
 
-router.post("/", async (req, res) => {
-  try {
-    res.json(await Facts.create(req.body));
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
+router.post('/ffffotw/:id', async (req, res, next) => {
+    try {
+        const createdFacts = await Facts.create ({desc: req.body.desc, name: req.body.name})
+        
+        res.redirect(`/ffffotw/${createdFacts.id}`)
+    }catch(error) {
+        console.log(error);
+        return next()
+    }
+})
     
 router.get('/:id', async (req,res)=>{
   try {
