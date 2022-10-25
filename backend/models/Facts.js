@@ -1,16 +1,16 @@
 const mongoose = require('mongoose');
 
 const FactsSchema = new mongoose.Schema(
-    { 
-    name:{type:String, required:true},  
-    desc: {type:String, required:true},
+    {
+        name: [{
+            type: String
+        }],
+        desc: [{
+            type: String
+        }]
     },
-    
     {timestamps: true}
-
-
-    
-    );
+);
 
     const Facts = mongoose.model('Facts', FactsSchema);
 

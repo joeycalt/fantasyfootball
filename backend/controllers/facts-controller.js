@@ -1,6 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const {Facts} = require('../models/Facts')
+const { Router, query } = require('express');
+router.use(express.json());
+router.use(express.urlencoded({ extended: false }));
+const bodyParser = require('body-parser');
+const req = require('express/lib/request');
+router.use( bodyParser.urlencoded({ extended: true }));
+router.use(bodyParser.json());
+const path = require('path')
 
 router.get('/',async (req, res) => {
     try{
